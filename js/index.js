@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 var loadOnContainer = function(page)
 {
-    $("#container").load("/pages/" + page + ".php");
+    $("#container").load("/pages/html/" + page + ".html");
 }
 
 $(document).ready(function() {
