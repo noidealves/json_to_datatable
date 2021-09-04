@@ -1,3 +1,4 @@
+<?php ?>
 <h3 class="text-center">ANOTAÇÕES</h3>
 <section class="content" style="margin: 1em;">
     <div class="box box-solid">
