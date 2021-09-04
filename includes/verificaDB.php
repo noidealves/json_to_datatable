@@ -1,5 +1,10 @@
 <?php 
 
+if (!file_exists('files'))
+{
+    mkdir('files', 0777);
+}
+
 if (!file_exists('files/db.json'))
 {
     $db = array(
